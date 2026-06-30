@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f6f9}
+nav{position:fixed;top:0;width:100%;background:#0d6efd;padding:0 16px;z-index:1000;box-shadow:0 2px 6px rgba(0,0,0,.15);display:flex;align-items:center;height:60px}
+nav a{color:#fff;margin:0 6px;text-decoration:none;padding:10px 16px;border-radius:6px;font-weight:500;transition:background .15s ease}
+nav a:hover{background:rgba(255,255,255,.15)}
+nav a.active-link{background:#fff;color:#0d6efd}
+.page-card{margin:76px 16px 24px 16px}
+.page-card section{display:none}
+.page-card section.active-section{display:block}
+.page-card .section-card{border-radius:8px;overflow:hidden}
+</style>
+</head>
+<body>
+<nav>
+<a href="#homepage" class="active-link">Home</a>
+<a href="#project">Projects</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="page-card">
+
+<section id="homepage" class="active-section">
+
+<style>
+    .home-body {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .hero h1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 22px;
+        }
+
+</style>
+
+<div class="card card-primary section-card">
+<div class="card-body home-body" style="background-image: url('Images/Theme.png');">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; padding-bottom: 15px;">
+                        <h1 style="font-weight: 600">Welcome to My Portfolio</h1>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center;">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-2" style="display: flex; justify-content: center;">
+                                <img src="Images/LogoHome.png" style="height: 30vh; width: 30vh; border-radius: 50%;" />
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-sm-12 hero">
+                                <h1>Hi, I'm John Michael Villamar</h1>
+                                <p>Junior Full Stack Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.1rem; padding-top: 2%; padding-left: 10%; padding-right: 10%;">
+                        <p>
+                            I am passionate about developing web applications that help businesses improve their operations and efficiency. I have hands-on experience building business systems using ASP.NET MVC, Oracle Database(SQL, PL/SQL), C#, JavaScript, jQuery, Bootstrap.
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.1rem; padding-bottom: 1%; padding-left: 12%; padding-right: 10%;">
+                        <p>
+                            <strong>What I Do</strong>
+                            <br />
+                            • Develop Web-Based Business Applications
+                            <br />
+                            • Design and Manage Databases
+                            <br />
+                            • Maintain and Enhance Existing Systems
+                            <br />
+                            • Create Responsive User Interfaces
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.1rem; padding-bottom: 2%; padding-left: 12%; padding-right: 10%;">
+                        <p>
+                            <strong>Technologies & Tools</strong>
+                            <br />
+                            • ASP.NET MVC
+                            <br />
+                            • C#
+                            <br />
+                            • CSHTML, CSS, Bootstrap
+                            <br />
+                            • JavaScript/jQuery
+                            <br />
+                            • Oracle Database(SQL, PL/SQL)
+                            <br />
+                            • Microsoft Visual Studio
+                            <br />
+                            • Oracle SQL Developer
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.5rem; padding-left: 10%; padding-right: 10%;">
+                        <p>
+                            <strong>Featured Projects</strong>
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.1rem; padding-left: 12%; padding-right: 10%;">
+                        <p>
+                            <strong>Delivery Management System</strong>
+                            <br />
+                            A web-based Delivery Management System designed to streamline delivery operations, monitor shipment status, track deliveries in real time, and manage customer and transaction records efficiently.
+                            <br />
+                            <br />
+                            <strong>Ordering and Inventory Management System (Self-study project)</strong>
+                            <br />
+                            A web-based Ordering and Inventory Management System developed as a personal self-study project to simulate real business operations. The system allows users to place orders and helps administrators monitor product inventory in real time to ensure accurate stock tracking and efficient order management.
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.5rem; padding-left: 10%; padding-right: 10%;">
+                        <p>
+                            <strong>My Goal</strong>
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.1rem; padding-left: 12%; padding-right: 10%;">
+                        <p>
+                            To grow as a Full Stack Web Developer by continuously learning, building practical solutions, and contributing to successful projects.
+                            <br />
+                            <br />
+                            Building solutions, learning continuously, and growing one project at a time.
+                        </p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; font-size: 1.5rem; padding-top: 2%;">
+                        <p>
+                            <a href="#project" class="btn btn-primary">View My Projects</a>
+                            <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        </p>
+                    </div>
+                </div>
+</div>
+</div>
+
+</section>
+
+<section id="about">
+
+<style>
+    .about-body {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<div class="card card-primary section-card">
+<div class="card-body about-body" style="background-image: url('Images/Theme.png');">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; padding-bottom: 15px;">
+                        <h1 style="font-weight: 600">About Me</h1>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; font-size: 1.5rem; padding: 10px; font-weight: 500">
+                        <p>
+                            I am a Junior Full Stack Web Developer with hands-on experience in developing business web applications using ASP.NET MVC and Oracle Database.                            <br />
+                            <br />
+                            My skills include:
+                            <br />
+                            <br />
+                            ASP.NET MVC Development
+                            <br />
+                            Oracle Database(SQL, PL/SQL)
+                            <br />
+                            C#, CSHTML, CSS, Bootstrap and JavaScript(jQuery)
+                            <br />
+                            <br />
+                             I believe that great software is not only about writing code but also about understanding user needs and creating solutions that are reliable, efficient, and easy to use. I enjoy solving complex problems, learning new technologies, and continuously improving my development skills.
+                            <br /><br />
+                            As a developer, I value teamwork, responsibility, and continuous learning. I am always eager to take on new challenges that allow me to grow both personally and professionally while contributing to meaningful projects.
+                            <br />
+                            <br />
+                            I am seeking opportunities where I can grow my skills and contribute to real-world projects.
+                        </p>
+                    </div>
+                
+                </div>
+</div>
+</div>
+
+</section>
+
+<section id="project">
+
+<style>
+    .project-body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    #projectCarousel .carousel-inner,
+    #selfprojectCarousel .carousel-inner {
+        height: 50vh;
+    }
+
+    #projectCarousel .carousel-item,
+    #selfprojectCarousel .carousel-item {
+        height: 100%;
+    }
+
+        #projectCarousel .carousel-item img,
+        #selfprojectCarousel .carousel-item img {
+            max-width: 100%;
+            max-height: 50vh;
+            width: auto;
+            height: auto;
+        }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(30%);
+    }
+
+    .carousel-center {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-wrapper {
+        position: relative;
+        display: inline-block;
+        line-height: 0;
+    }
+
+    .fullscreen-btn {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 20;
+        background: rgba(0, 0, 0, 0.75);
+        border: none;
+        border-radius: 4px 0 0 0;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background 0.15s ease;
+    }
+
+        .fullscreen-btn:hover {
+            background: rgba(0, 0, 0, 0.95);
+        }
+
+        .fullscreen-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: white;
+        }
+
+    #imageFullview {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.92);
+        justify-content: center;
+        align-items: center;
+    }
+
+        #imageFullview.active {
+            display: flex;
+        }
+
+        #imageFullview img {
+            max-width: 90%;
+            max-height: 90vh;
+            object-fit: contain;
+        }
+
+        #imageFullview .close-btn {
+            position: absolute;
+            top: 18px;
+            right: 28px;
+            color: white;
+            font-size: 2.2rem;
+            font-weight: 300;
+            cursor: pointer;
+            user-select: none;
+            opacity: 0.85;
+            transition: opacity 0.15s;
+        }
+
+            #imageFullview .close-btn:hover {
+                opacity: 1;
+            }
+</style>
+
+<div class="card card-primary section-card">
+<div class="card-body project-body" style="background-image: url('Images/Theme.png');">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; padding-bottom: 15px;">
+                    <h1 style="font-weight: 600">Projects</h1>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-8 col-md-6 col-sm-12 col-12">
+                        <div id="projectCarousel" class="carousel slide mx-auto mb-2" data-ride="carousel">
+                            <div class="carousel-inner text-center">
+
+                                <div class="carousel-item active">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/Project1.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('projectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/Project2.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('projectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/Project3.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('projectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/Project4.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('projectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a class="carousel-control-prev custom-control" href="#projectCarousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next custom-control" href="#projectCarousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.7rem; padding: 1px; font-weight: 600; margin-left: 2%">
+                                <p>Delivery Management System</p>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.1rem; margin-left: 2%;">
+                                <p>
+                                    <strong>Project Overview</strong>
+                                    <br />
+                                    A web-based Delivery Management System designed to streamline delivery operations, monitor shipment status, track deliveries in real time, and manage customer and transaction records efficiently.
+                                    <br /><br />
+                                    <strong>Key Features</strong>
+                                    <br />
+                                    • Transaction management<br />
+                                    • Customer Relationship Management (CRM)<br />
+                                    • Reporting and data generation<br />
+                                    • User access and role management
+                                </p>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="font-size: 1.1rem; margin-left: 2%">
+                                <p>
+                                    <strong>Technologies Used</strong>
+                                    <br />
+                                    • ASP.NET MVC<br />
+                                    • C#<br />
+                                    • CSHTML, CSS, Bootstrap<br />
+                                    • JavaScript/jQuery<br />
+                                    • Oracle Database(SQL, PL/SQL)
+                                </p>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="font-size: 1.1rem; margin-left: 2%">
+                                <p>
+                                    <strong>Tools Used</strong>
+                                    <br />
+                                    • Visual Studio<br />
+                                    • Oracle SQL Developer
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="height: 2px; background-color: #0094ff; width: 100%;"></div>
+
+                    <div class="col-lg-8 col-md-6 col-sm-12 col-12 mt-5">
+                        <div id="selfprojectCarousel" class="carousel slide mx-auto mb-2" data-ride="carousel">
+                            <div class="carousel-inner text-center">
+
+                                <div class="carousel-item active">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/SProject1.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('selfprojectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/SProject2.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('selfprojectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/SProject3.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('selfprojectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/SProject4.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('selfprojectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/SProject5.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('selfprojectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/SProject6.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('selfprojectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/SProject7.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('selfprojectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/SProject8.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('selfprojectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="carousel-center">
+                                        <div class="img-wrapper">
+                                            <img src="Images/SProject9.png" class="d-block mx-auto" />
+                                            <button class="fullscreen-btn" onclick="openFullview('selfprojectCarousel')">
+                                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a class="carousel-control-prev custom-control" href="#selfprojectCarousel" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next custom-control" href="#selfprojectCarousel" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.7rem; padding: 1px; font-weight: 600; margin-left: 2%">
+                                <p>Ordering and Inventory Management System (Self-study project)</p>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: left; font-size: 1.1rem; margin-left: 2%;">
+                                <p>
+                                    <strong>Project Overview</strong>
+                                    <br />
+                                    A web-based Ordering and Inventory Management System developed as a personal self-study project to simulate real business operations. The system allows users to place orders and helps administrators monitor product inventory in real time to ensure accurate stock tracking and efficient order management.
+                                    <br /><br />
+                                    <strong>Key Features</strong>
+                                    <br />
+                                    • POS transaction management<br />
+                                    • Inventory Monitoring<br />
+                                    • Menu and stock management<br />
+                                    • Messaging and Order status notification<br />
+                                    • User access and role management
+                                </p>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="font-size: 1.1rem; margin-left: 2%">
+                                <p>
+                                    <strong>Technologies Used</strong>
+                                    <br />
+                                    • ASP.NET MVC<br />
+                                    • C#<br />
+                                    • CSHTML, CSS, Bootstrap<br />
+                                    • JavaScript/jQuery<br />
+                                    • SignalR (Real-time messaging and notifications)<br />
+                                    • Oracle Database(SQL, PL/SQL)
+                                </p>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="font-size: 1.1rem; margin-left: 2%">
+                                <p>
+                                    <strong>Tools Used</strong>
+                                    <br />
+                                    • Visual Studio<br />
+                                    • Oracle SQL Developer
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+</div>
+</div>
+
+<div id="imageFullview" onclick="closeFullview()">
+    <span class="close-btn" onclick="closeFullview()">&times;</span>
+    <img id="fullviewImg" src="" alt="" onclick="event.stopPropagation()" />
+</div>
+
+</section>
+
+<section id="contact">
+
+<style>
+    .contact-body {
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+</style>
+
+<div class="card card-primary section-card">
+<div class="card-body contact-body" style="background-image: url('Images/Theme.png');">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; padding-bottom: 15px;">
+                        <h1 style="font-weight: 600">Contact Me</h1>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center;">
+                        <img src="Images/Logo.png" style="height: 30vh; width: 30vh; border-radius: 100%; max-height: 30vh;" />
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; font-size: 1.1rem; padding: 10px;">
+                        <span><i class="fas fa-user"> Name:</i> John Michael Villamar</span>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; font-size: 1.1rem; padding: 10px;">
+                        <span><i class="fas fa-mobile"> Phone No:</i> +639983575065</span>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; font-size: 1.1rem; padding: 10px;">
+                        <span><i class="fas fa-envelope"> Email:</i> mvillamar411@gmail.com</span>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; font-size: 1.1rem; padding: 5vh;">
+                        <p>
+                            Let’s build something great together.
+                            <br />
+                            I’m open to Full Stack / Web Developer opportunities.
+                        </p>
+                    </div>
+                </div>
+</div>
+</div>
+
+</section>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.2/js/bootstrap.bundle.min.js"></script>
+<script>
+    function openFullview(carouselId) {
+        var activeImg = document.querySelector('#' + carouselId + ' .carousel-item.active img');
+        if (!activeImg) return;
+        document.getElementById('fullviewImg').src = activeImg.src;
+        document.getElementById('imageFullview').classList.add('active');
+    }
+
+    function closeFullview() {
+        document.getElementById('imageFullview').classList.remove('active');
+        document.getElementById('fullviewImg').src = '';
+    }
+
+    document.querySelectorAll('nav a, a.btn[href^="#"]').forEach(function (link) {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            var targetId = this.getAttribute('href').substring(1);
+
+            document.querySelectorAll('.page-card section').forEach(function (sec) {
+                sec.classList.remove('active-section');
+            });
+            document.getElementById(targetId).classList.add('active-section');
+
+            document.querySelectorAll('nav a').forEach(function (l) {
+                l.classList.remove('active-link');
+                if (l.getAttribute('href') === '#' + targetId) {
+                    l.classList.add('active-link');
+                }
+            });
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    });
+</script>
+</body>
+</html>
